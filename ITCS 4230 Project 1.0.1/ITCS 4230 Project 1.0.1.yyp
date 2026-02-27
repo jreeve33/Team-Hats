@@ -85,6 +85,8 @@
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},},
     {"id":{"name":"sEnemyExplosion","path":"sprites/sEnemyExplosion/sEnemyExplosion.yy",},},
+    {"id":{"name":"sGunGuardShoot","path":"sprites/sGunGuardShoot/sGunGuardShoot.yy",},},
+    {"id":{"name":"sGunGuardWalk","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},},
     {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},},
     {"id":{"name":"sHUDhp","path":"sprites/sHUDhp/sHUDhp.yy",},},
     {"id":{"name":"sHUDTileSheet","path":"sprites/sHUDTileSheet/sHUDTileSheet.yy",},},

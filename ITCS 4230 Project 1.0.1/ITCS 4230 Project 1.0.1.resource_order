@@ -51,6 +51,8 @@
     {"name":"sButton","order":4,"path":"sprites/sButton/sButton.yy",},
     {"name":"sCollision","order":2,"path":"sprites/sCollision/sCollision.yy",},
     {"name":"sEnemyExplosion","order":2,"path":"sprites/sEnemyExplosion/sEnemyExplosion.yy",},
+    {"name":"sGunGuardShoot","order":3,"path":"sprites/sGunGuardShoot/sGunGuardShoot.yy",},
+    {"name":"sGunGuardWalk","order":4,"path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},
     {"name":"sHealth","order":1,"path":"sprites/sHealth/sHealth.yy",},
     {"name":"sHUDhp","order":1,"path":"sprites/sHUDhp/sHUDhp.yy",},
     {"name":"sLabFloorTileSet","order":1,"path":"sprites/sLabFloorTileSet/sLabFloorTileSet.yy",},
