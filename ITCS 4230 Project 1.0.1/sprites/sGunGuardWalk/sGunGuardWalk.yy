@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":31,
   "bbox_left":8,
-  "bbox_right":373,
+  "bbox_right":21,
   "bbox_top":9,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,25 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b399b50a-d161-4bdf-8aa7-6ec07d336125","name":"b399b50a-d161-4bdf-8aa7-6ec07d336125","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e13dc58f-ccdb-45fd-98a1-8afe017139eb","name":"e13dc58f-ccdb-45fd-98a1-8afe017139eb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0c7dafff-1339-4070-9b04-6990dcdc69af","name":"0c7dafff-1339-4070-9b04-6990dcdc69af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3181c320-f50f-42c9-aed9-6a939026e917","name":"3181c320-f50f-42c9-aed9-6a939026e917","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d3c08199-d255-4aae-b08d-cdce104e800f","name":"d3c08199-d255-4aae-b08d-cdce104e800f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7731f499-ddbe-437c-a03c-a5d2ce1a12bc","name":"7731f499-ddbe-437c-a03c-a5d2ce1a12bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f7126cc5-b3c4-410c-9b77-735395449562","name":"f7126cc5-b3c4-410c-9b77-735395449562","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"164ec452-c3ea-403a-8997-ab257b05fc13","name":"164ec452-c3ea-403a-8997-ab257b05fc13","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"77c8f643-e1ea-4a3e-9ea2-420d2aec3518","name":"77c8f643-e1ea-4a3e-9ea2-420d2aec3518","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5bbe51b7-f195-406c-a022-ccbeb6acc356","name":"5bbe51b7-f195-406c-a022-ccbeb6acc356","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e09eeaa-157e-4afa-815d-b572f62b9e84","name":"1e09eeaa-157e-4afa-815d-b572f62b9e84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8930b584-9832-411d-ae28-59b94478657b","name":"8930b584-9832-411d-ae28-59b94478657b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"482d6cde-d7a1-4933-8619-066c04c1af82","name":"482d6cde-d7a1-4933-8619-066c04c1af82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"480ea599-e1f2-4172-9c63-e56786b6346c","blendMode":0,"displayName":"default","isLocked":false,"name":"480ea599-e1f2-4172-9c63-e56786b6346c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ef1ec67e-51ba-42f6-871e-18c865cc78ec","blendMode":0,"displayName":"default","isLocked":false,"name":"ef1ec67e-51ba-42f6-871e-18c865cc78ec","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sGunGuardWalk",
   "nineSlice":null,
@@ -49,7 +60,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":12.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -69,8 +80,41 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b399b50a-d161-4bdf-8aa7-6ec07d336125","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"540ac3f6-783d-4204-aa4f-0f75eeb37bbf","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e13dc58f-ccdb-45fd-98a1-8afe017139eb","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ac6a7fe9-9745-4646-8cdd-e706e261e41f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0c7dafff-1339-4070-9b04-6990dcdc69af","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cc20fcc2-7718-49f2-b782-3803b98dd487","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3181c320-f50f-42c9-aed9-6a939026e917","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"21a77114-632f-4e3f-af61-3efe18b59e5b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3c08199-d255-4aae-b08d-cdce104e800f","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cf54a298-9736-45a1-b7ec-466ea688100d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7731f499-ddbe-437c-a03c-a5d2ce1a12bc","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2dd5dfe2-8dfe-4790-859e-d28d2d63344d","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7126cc5-b3c4-410c-9b77-735395449562","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0f9db352-9a9d-4df9-b138-856ae3a04c05","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"164ec452-c3ea-403a-8997-ab257b05fc13","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"154a7e04-b0de-4876-94d7-ccd48033eee9","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"77c8f643-e1ea-4a3e-9ea2-420d2aec3518","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"53f48367-3057-49c0-a08b-b18c3a2f79fa","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5bbe51b7-f195-406c-a022-ccbeb6acc356","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f2634eda-e58a-4aeb-afb4-71ed54c7b075","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e09eeaa-157e-4afa-815d-b572f62b9e84","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"41ceb9d2-1db2-41c4-9b5e-9879aa8ba21b","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8930b584-9832-411d-ae28-59b94478657b","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"92b3a032-cce2-4bcd-9179-dcd5dd9abec4","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"482d6cde-d7a1-4933-8619-066c04c1af82","path":"sprites/sGunGuardWalk/sGunGuardWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"14ce1840-044b-4269-884d-8d0dcbb3d260","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +130,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":384,
+  "width":32,
 }
