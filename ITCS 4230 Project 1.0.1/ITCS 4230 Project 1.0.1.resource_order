@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":4,"path":"folders/Fonts.yy",},
+    {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"EnemyDeath","order":4,"path":"folders/Objects/Enemies/EnemyDeath.yy",},
     {"name":"Guards","order":6,"path":"folders/Objects/Enemies/Guards.yy",},

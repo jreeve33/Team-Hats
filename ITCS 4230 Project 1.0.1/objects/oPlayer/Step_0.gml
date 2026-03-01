@@ -13,6 +13,11 @@ scr_playerSpriteHandler()
 
 scr_playerAttacks()
 
+if attackCdr >= 0{
+	attackCdr--
+}
+
+
 if current_XP >= xpForLevel{
 	scr_levelUp()
 }

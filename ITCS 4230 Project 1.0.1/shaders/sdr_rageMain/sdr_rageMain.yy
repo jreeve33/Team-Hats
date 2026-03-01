@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"sdr_rageMain",
+  "name":"sdr_rageMain",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -4,8 +4,8 @@ var lay = layer_get_id("collision_map")
 tilemap = layer_tilemap_get_id(lay)
 
 
-image_xscale = 3
-image_yscale = 3
+image_xscale = 2
+image_yscale = 2
 
 
 runLeft = sMGuardRunLeft
