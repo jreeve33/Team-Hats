@@ -87,5 +87,29 @@ if speedUp == true{
 	draw_sprite_ext(speed_sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, 1);
 	#endregion
 }
+	
+//Vision Trait
+if goodEyes == true{
+	#region
+	if ((sprite_index == sSaturnLeft) || sprite_index == sSaturnStoppedLeft){
+		vision_sprite_index = sVisionLeft
+	}
+
+	if ((sprite_index == sSaturnRight) || sprite_index == sSaturnStoppedRight){
+		vision_sprite_index = sVisionRight
+	}
+
+	if ((sprite_index == sSaturnUp) || sprite_index == sSaturnStoppedUp){
+		vision_sprite_index = sVisionUp
+	}
+	
+	if ((sprite_index == sSaturnDown) || sprite_index == sSaturnStoppedDown){
+		vision_sprite_index = sVisionDown
+	}
+	
+	
+	draw_sprite_ext(vision_sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, 1);
+	#endregion
+}
 
 shader_reset()

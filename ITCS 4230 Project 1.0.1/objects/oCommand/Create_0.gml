@@ -11,6 +11,8 @@ global.slashDamage = 5
 
 global.timer = 300
 
+global.rageCDRreduction = 1
+
 clamp(global.guardSpawnChance, 0, 1)
 
 clamp(global.scientistSpawnChance, 0, 1)
