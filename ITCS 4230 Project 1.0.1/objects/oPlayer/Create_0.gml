@@ -41,7 +41,8 @@ attackSize = 1
 
 //Traits Unlocked
 #region
-dashAttack = false
+lungeNum = 0
+lunge = false
 invincibility = false
 rage = false
 speedUp = false
