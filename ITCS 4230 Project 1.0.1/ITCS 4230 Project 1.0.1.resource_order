@@ -117,6 +117,7 @@
     {"name":"sScientist4Walk","order":3,"path":"sprites/sScientist4Walk/sScientist4Walk.yy",},
     {"name":"sScientist4WalkLeft","order":5,"path":"sprites/sScientist4WalkLeft/sScientist4WalkLeft.yy",},
     {"name":"sSpawnArea","order":8,"path":"sprites/sSpawnArea/sSpawnArea.yy",},
+    {"name":"sTraitBar","order":5,"path":"sprites/sTraitBar/sTraitBar.yy",},
     {"name":"sUpgradeCard","order":1,"path":"sprites/sUpgradeCard/sUpgradeCard.yy",},
     {"name":"sUpgradeHide","order":2,"path":"sprites/sUpgradeHide/sUpgradeHide.yy",},
     {"name":"sVisionDown","order":1,"path":"sprites/sVisionDown/sVisionDown.yy",},

@@ -4,7 +4,7 @@ function scr_levelUp(){
 		pause()
 		instance_create_depth(oPlayer.x, oPlayer.y, -2, obj_upgrade_screen)
 		oPlayer.current_XP -= oPlayer.xpForLevel
-		oPlayer.xpForLevel *= 1.5
+		oPlayer.xpForLevel *= 1.2
 	}
 	global.scientistSpawnChance /= 1.15
 	global.guardSpawnChance *= 1.15

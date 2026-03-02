@@ -167,6 +167,7 @@
     {"id":{"name":"sScientistSpriteSheet","path":"sprites/sScientistSpriteSheet/sScientistSpriteSheet.yy",},},
     {"id":{"name":"sSlashAttackDown","path":"sprites/sSlashAttackDown/sSlashAttackDown.yy",},},
     {"id":{"name":"sSpawnArea","path":"sprites/sSpawnArea/sSpawnArea.yy",},},
+    {"id":{"name":"sTraitBar","path":"sprites/sTraitBar/sTraitBar.yy",},},
     {"id":{"name":"sUpgradeCard","path":"sprites/sUpgradeCard/sUpgradeCard.yy",},},
     {"id":{"name":"sUpgradeHide","path":"sprites/sUpgradeHide/sUpgradeHide.yy",},},
     {"id":{"name":"sVisionDown","path":"sprites/sVisionDown/sVisionDown.yy",},},
