@@ -12,6 +12,6 @@ runLeft = sMGuardRunLeft
 
 
 hitCooldown = 0
-
-health_guard = 50
+paused_speed = 0
+health_guard = 10
 

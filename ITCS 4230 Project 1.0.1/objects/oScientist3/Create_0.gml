@@ -11,5 +11,5 @@ runLeft = sScientist3runLeft
 walkLeft = sScientist3WalkLeft
 
 hitCooldown = 0
-
-health_scientist = 5
+paused_speed = 0
+health_scientist = 1

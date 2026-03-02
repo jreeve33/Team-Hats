@@ -1,5 +1,5 @@
 //rage shader
-if rage == true{
+if _rage == true{
 	shader_set(sdr_rageMain)
 
 	shader_set_uniform_f(sh_handle_range1, 1);
@@ -43,7 +43,7 @@ if rage == true{
 draw_self()
 
 //Lunge Trait
-if lunge == true{
+if _lunge == true{
 	if ((sprite_index == sSaturnLeft) || sprite_index == sSaturnStoppedLeft){
 		lunge_sprite_index = sLungeLeft
 	}
@@ -65,7 +65,7 @@ if lunge == true{
 }
 	
 //Speed Trait
-if speedUp == true{
+if _speed == true{
 	#region
 	if ((sprite_index == sSaturnLeft) || sprite_index == sSaturnStoppedLeft){
 		speed_sprite_index = sMoveSpeedLeft
@@ -89,7 +89,7 @@ if speedUp == true{
 }
 	
 //Vision Trait
-if goodEyes == true{
+if _vision == true{
 	#region
 	if ((sprite_index == sSaturnLeft) || sprite_index == sSaturnStoppedLeft){
 		vision_sprite_index = sVisionLeft

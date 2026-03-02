@@ -1,13 +1,17 @@
 players = 0
 scr_playerSpawn()
 
+global.paused = false
+
 global.guardSpawnChance = 0.25
 
-
+global.CDRreduction = 1
 
 global.scientistSpawnChance = 1
 
-global.slashDamage = 5
+
+
+global.attackRange = 1
 
 global.timer = 300
 

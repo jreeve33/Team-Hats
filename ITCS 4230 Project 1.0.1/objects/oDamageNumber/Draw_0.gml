@@ -3,5 +3,5 @@ font_enable_effects(silverForDamageNumber, true, {
 	outlineEnable: true,
 	outlineColor: c_black
 })
-
-draw_text(x, y, string(global.slashDamage))
+var damage = ds_map_find_value(global.swipe, "damage");
+draw_text(x, y, string(damage))

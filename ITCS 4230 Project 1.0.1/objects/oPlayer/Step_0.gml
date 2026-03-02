@@ -1,11 +1,16 @@
 // If the game is paused...
-/*
+
 if (global.paused)
 {
 	// Exit this event while paused.
 	exit;
 }
-*/
+
+_speed = ds_map_find_value(global.traits, "speed");
+_vision = ds_map_find_value(global.traits, "vision");
+_immunity = ds_map_find_value(global.traits, "immunity");
+_rage = ds_map_find_value(global.traits, "rage");
+_lunge = ds_map_find_value(global.traits, "lunge");
 
 scr_playerMovement()
 	

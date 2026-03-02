@@ -39,16 +39,6 @@ damageMod = 1
 attackSize = 1
 #endregion
 
-//Traits Unlocked
-#region
-lungeNum = 0
-lunge = false
-invincibility = false
-rage = false
-speedUp = false
-goodEyes = false
-#endregion
-
 //Rage Shader
 #region
 color = function(r, g, b) constructor{

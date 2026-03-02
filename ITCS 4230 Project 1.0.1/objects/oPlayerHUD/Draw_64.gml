@@ -11,6 +11,6 @@ if instance_exists(oPlayer){
 	draw_set_font(silver)
 	draw_text(185, 112, "Level: " + string(oPlayer.currentLevel))
 	
-	draw_text(900, 8, string(global.timer))
+	//draw_text(900, 8, string(global.timer))
 	
 }

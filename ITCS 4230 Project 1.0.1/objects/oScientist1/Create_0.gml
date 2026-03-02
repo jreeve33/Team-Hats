@@ -12,5 +12,5 @@ walkLeft = sScientist1WalkLeft
 
 hitCooldown = 0
 
-health_scientist = 5
+health_scientist = 1
 
