@@ -13,6 +13,7 @@
     {"name":"inst_A1B8362","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1B6DFED3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_560C1810","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_6A321076","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -34,6 +35,9 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2496.0,"y":1376.0,},
         {"$GMRInstance":"v4","%Name":"inst_1B6DFED3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B6DFED3","objectId":{"name":"oPlayerHUD","path":"objects/oPlayerHUD/oPlayerHUD.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2368.0,"y":1376.0,},
         {"$GMRInstance":"v4","%Name":"inst_560C1810","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_560C1810","objectId":{"name":"backgroundMusicPlayer","path":"objects/backgroundMusicPlayer/backgroundMusicPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2304.0,"y":1376.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6A321076","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A321076","objectId":{"name":"oGuardSpawner","path":"objects/oGuardSpawner/oGuardSpawner.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oGuardSpawner","path":"objects/oGuardSpawner/oGuardSpawner.yy",},"propertyId":{"name":"obj_type","path":"objects/oGuardSpawner/oGuardSpawner.yy",},"resource":{"name":"oGuard1","path":"objects/oGuard1/oGuard1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"oGuard1",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2530.0,"y":1378.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"player_spawn","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"player_spawn","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":60,"SerialiseWidth":105,"TileCompressedData":[
           -4659,-2147483648,-4,1,1,0,-100,-2147483648,-4,1,1,0,-72,-2147483648,-6,1,-22,-2147483648,-4,1,1,0,-72,

@@ -1,4 +1,4 @@
-
+scr_huntPlayer()
 
 if hitCooldown > 0{
 	hitCooldown--
