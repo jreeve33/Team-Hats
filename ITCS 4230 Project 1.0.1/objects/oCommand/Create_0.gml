@@ -9,8 +9,6 @@ global.CDRreduction = 1
 
 global.scientistSpawnChance = 1
 
-
-
 global.attackRange = 1
 
 global.timer = 300
