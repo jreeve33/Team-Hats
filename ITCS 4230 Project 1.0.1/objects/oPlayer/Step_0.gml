@@ -40,7 +40,7 @@ if place_meeting(x + hspeed + .1, y , tilemap){
 if place_meeting(x, y + vspeed , tilemap){
 	vspeed = 0
 }
-alarm[0] = game_get_speed(fps) / 2
+
 
 
 

@@ -1,6 +1,6 @@
 players = 0
 scr_playerSpawn()
-
+display_reset(0, true)
 global.paused = false
 
 global.guardSpawnChance = 0.25
