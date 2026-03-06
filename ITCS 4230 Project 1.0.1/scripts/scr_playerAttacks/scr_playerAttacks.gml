@@ -18,7 +18,7 @@ function scr_playerAttacks(){
 			speed = 0
 			sprite_index = sSaturnStoppedLeft
 			oPlayer.direction = 180
-			instance_create_layer(x - 16 - speed, y, "Instances", oSlash)
+			instance_create_layer(x - 16 -speed, y, "Instances", oSlash)
 		}
 	}
 	
@@ -29,7 +29,7 @@ function scr_playerAttacks(){
 			speed = 0
 			sprite_index = sSaturnStoppedUp
 			oPlayer.direction = 90
-			instance_create_layer(x,y - 16 - speed, "Instances", oSlash)
+			instance_create_layer(x,y -16 - speed, "Instances", oSlash)
 		}
 	}
 	
