@@ -5,11 +5,11 @@ function scr_attackPlayer(){
 		speed = 0
 		
 		if direction >= 90 &&  direction <= 270{
-			sprite_index = runLeft
+			sprite_index = swingLeft
 		}
 		
 		else{
-			sprite_index = run
+			sprite_index = swing
 		}
 	}
 }
