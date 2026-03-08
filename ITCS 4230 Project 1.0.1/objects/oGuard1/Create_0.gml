@@ -7,6 +7,7 @@ tilemap = layer_tilemap_get_id(lay)
 image_xscale = 1
 image_yscale = 1
 
+canSwing = true
 
 runLeft = sMGuardRunLeft
 run = sMGuardRun

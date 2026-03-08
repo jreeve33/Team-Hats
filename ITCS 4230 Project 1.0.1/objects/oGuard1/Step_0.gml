@@ -1,5 +1,12 @@
 scr_huntPlayer()
 scr_attackPlayer()
+if scr_attackPlayer() == true{
+	speed = 0
+	if canSwing == true{
+		canSwing = false
+		instance_create_layer(x, y, "Instances", oMGuardAttack)
+	}
+}
 if hitCooldown > 0{
 	hitCooldown--
 }

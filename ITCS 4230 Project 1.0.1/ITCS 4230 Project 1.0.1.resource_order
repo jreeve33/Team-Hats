@@ -54,6 +54,7 @@
     {"name":"oScientist4","order":3,"path":"objects/oScientist4/oScientist4.yy",},
     {"name":"oSlash","order":1,"path":"objects/oSlash/oSlash.yy",},
     {"name":"oSpawner","order":1,"path":"objects/oSpawner/oSpawner.yy",},
+    {"name":"oXPLarge","order":1,"path":"objects/oXPLarge/oXPLarge.yy",},
     {"name":"pause","order":1,"path":"scripts/pause/pause.yy",},
     {"name":"scr_attackPlayer","order":6,"path":"scripts/scr_attackPlayer/scr_attackPlayer.yy",},
     {"name":"scr_dealEnemyDamage","order":4,"path":"scripts/scr_dealEnemyDamage/scr_dealEnemyDamage.yy",},

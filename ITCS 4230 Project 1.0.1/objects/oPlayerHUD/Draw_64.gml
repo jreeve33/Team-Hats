@@ -5,7 +5,7 @@ if instance_exists(oPlayer){
 	var _xpNum = 285 * _xpPercent
 	
 	draw_sprite(sHUDhp, 1, 8, 0)
-	draw_healthbar(175, 35, 460, 56, oPlayer.totalHealth, noone, c_fuchsia, c_red, 0, true, true)
+	draw_healthbar(175, 35, 460, 56, oPlayer.currentHealth, noone, c_red, c_red, 0, true, true)
 	draw_sprite_stretched(sXPbarempty, 0, 175, 72, 285, 21)
 	draw_sprite_stretched_ext(sXPbarfull, 0, 175, 72, _xpNum, 21, c_aqua, 1)
 	draw_set_font(silver)

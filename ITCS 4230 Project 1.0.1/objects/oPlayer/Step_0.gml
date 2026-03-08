@@ -6,6 +6,10 @@ if (global.paused)
 	exit;
 }
 
+
+if currentHealth < 0 {
+	room_restart()
+} 
 _speed = ds_map_find_value(global.traits, "speed");
 _vision = ds_map_find_value(global.traits, "vision");
 _immunity = ds_map_find_value(global.traits, "immunity");
@@ -22,6 +26,9 @@ if attackCdr >= 0{
 	attackCdr--
 }
 
+if hitCooldown >= 0{
+	hitCooldown--
+}
 
 if current_XP >= xpForLevel{
 	scr_levelUp()

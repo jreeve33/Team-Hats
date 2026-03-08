@@ -56,7 +56,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"ITCS 4230 Project 1.0.1",
   "resources":[
@@ -84,6 +84,7 @@
     {"id":{"name":"oSlash","path":"objects/oSlash/oSlash.yy",},},
     {"id":{"name":"oSpawner","path":"objects/oSpawner/oSpawner.yy",},},
     {"id":{"name":"oXP","path":"objects/oXP/oXP.yy",},},
+    {"id":{"name":"oXPLarge","path":"objects/oXPLarge/oXPLarge.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"pause","path":"scripts/pause/pause.yy",},},
     {"id":{"name":"scr_animationpicker","path":"scripts/scr_animationpicker/scr_animationpicker.yy",},},

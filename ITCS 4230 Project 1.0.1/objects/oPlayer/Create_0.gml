@@ -29,6 +29,7 @@ xpPercentage = current_XP / xpForLevel
 totalHealth = 100
 
 currentHealth = 100
+hitCooldown = 0
 #endregion
 
 //Attack Input
