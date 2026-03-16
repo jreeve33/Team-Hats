@@ -10,7 +10,7 @@ function scr_playerAttacks(){
 			instance_create_layer(x,y + 16 + speed, "Instances", oSlash)
 		}
 	}
-	
+
 	if (keyboard_check(vk_left)){
 		if oPlayer.attackCdr <= 0{
 			oPlayer.attackCdr += 25 * _attackCDR

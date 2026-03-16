@@ -1,5 +1,6 @@
 //if player is close, run away
-scr_playerDetectionScientist()
+
+	scr_playerDetectionScientist()
 
 if health_scientist <= 0{
 	instance_create_layer(x, y, "Instances", oEnemyExplode)

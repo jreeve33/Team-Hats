@@ -4,7 +4,7 @@ if scr_attackPlayer() == true{
 	speed = 0
 	if canSwing == true{
 		canSwing = false
-		instance_create_layer(x, y, "Instances", oMGuardAttack)
+		instance_create_depth(x, y, -1, oMGuardAttack)
 	}
 }
 if hitCooldown > 0{

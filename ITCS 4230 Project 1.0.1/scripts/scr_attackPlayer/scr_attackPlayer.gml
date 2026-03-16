@@ -1,6 +1,6 @@
 function scr_attackPlayer(){
 	alarm[0] = 1
-	if point_distance(x, y, oPlayer.x, oPlayer.y) < 40{ 
+	if (point_distance(x, y, oPlayer.x, oPlayer.y) < 40) and global.canAttack == true{ 
 		direction = point_direction(x, y, oPlayer.x, oPlayer.y)
 		speed = 0
 		

@@ -30,6 +30,16 @@ if hitCooldown >= 0{
 	hitCooldown--
 }
 
+if _immunity{
+	if invuln_timer <= 0{
+		instance_create_layer(x,y,"Instances", oBubble)
+		invuln_timer += 400
+	}
+	else if invuln_timer >= 0{
+		invuln_timer--
+	}
+}
+
 if current_XP >= xpForLevel{
 	scr_levelUp()
 }

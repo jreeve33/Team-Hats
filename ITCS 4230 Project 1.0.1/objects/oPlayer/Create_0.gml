@@ -72,3 +72,5 @@ sh_handle_match3 = shader_get_uniform(sdr_rageMain, "colorMatch3");
 sh_handle_replace3 = shader_get_uniform(sdr_rageMain, "colorReplace3");
 #endregion
 
+//Invuln
+invuln_timer = 0
