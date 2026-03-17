@@ -6,8 +6,7 @@ function pause(){
 		oGuard1.canSwing = false
 	}
 	// Apply the following code to all instances...
-	with (all) 
-	{
+	with (all) {
 		// Save the instance's speed.
 		paused_speed = speed;
 	
@@ -20,5 +19,5 @@ function pause(){
 		// Stop animation.
 		//image_speed = 0;
 	}
-
+	
 }

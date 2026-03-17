@@ -35,6 +35,7 @@ totalHealth = 100
 
 currentHealth = 100
 hitCooldown = 0
+clamp(currentHealth, 0, 100)
 #endregion
 
 //Attack Input

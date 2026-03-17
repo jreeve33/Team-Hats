@@ -10,5 +10,6 @@ instance_create_layer(1920 / 2, 1080 - 150, "Buttons", obj_button_reroll);
 // Calls funtion to generate the upgrades.
 scr_getUpgrade();
 
+instance_destroy(oBullet)
 // Pause the game
 pause();

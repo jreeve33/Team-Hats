@@ -4,9 +4,10 @@ function scr_playerAttacks(){
 		if oPlayer.attackCdr <= 0{
 			oPlayer.attackCdr += 25 * _attackCDR
 			oPlayer.attackDirection = 4
-			speed = 0
-			sprite_index = sSaturnStoppedDown
-			oPlayer.direction = 270
+			if oPlayer.speed <= 0{
+				sprite_index = sSaturnStoppedDown
+				oPlayer.direction = 270
+			}
 			instance_create_layer(x,y + 16 + speed, "Instances", oSlash)
 		}
 	}
@@ -15,9 +16,10 @@ function scr_playerAttacks(){
 		if oPlayer.attackCdr <= 0{
 			oPlayer.attackCdr += 25 * _attackCDR
 			oPlayer.attackDirection = 2
-			speed = 0
-			sprite_index = sSaturnStoppedLeft
-			oPlayer.direction = 180
+			if oPlayer.speed <= 0{
+				sprite_index = sSaturnStoppedLeft
+				oPlayer.direction = 180
+			}
 			instance_create_layer(x - 16 -speed, y, "Instances", oSlash)
 		}
 	}
@@ -26,9 +28,10 @@ function scr_playerAttacks(){
 		if oPlayer.attackCdr <= 0{
 			oPlayer.attackCdr += 25 * _attackCDR
 			oPlayer.attackDirection = 1
-			speed = 0
-			sprite_index = sSaturnStoppedUp
-			oPlayer.direction = 90
+			if oPlayer.speed <= 0{
+				sprite_index = sSaturnStoppedUp
+				oPlayer.direction = 90
+			}
 			instance_create_layer(x,y -16 - speed, "Instances", oSlash)
 		}
 	}
@@ -37,9 +40,10 @@ function scr_playerAttacks(){
 		if oPlayer.attackCdr <= 0{
 			oPlayer.attackCdr += 25 * _attackCDR
 			oPlayer.attackDirection = 0
-			speed = 0
-			sprite_index = sSaturnStoppedRight
-			oPlayer.direction = 0
+			if oPlayer.speed <= 0{
+				sprite_index = sSaturnStoppedRight
+				oPlayer.direction = 0
+			}
 			instance_create_layer(x + 16 + speed,y , "Instances", oSlash)
 		}
 	}

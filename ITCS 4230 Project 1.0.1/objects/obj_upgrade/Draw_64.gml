@@ -25,7 +25,7 @@ draw_text(x, y + 185, string(upgrade_data[? "title"]));
 draw_set_colour(c_white);
 
 // Set the upgrade font.
-draw_set_font(fnt_small);
+draw_set_font(fnt_large);
 
 // Draw the upgrade text.
 draw_text(x, y - 50, string(upgrade_data[? "weapon_name"]));
@@ -37,7 +37,7 @@ draw_set_font(fnt_medium);
 draw_text(x, y + 40, string(upgrade_data[? "description"]));
 
 // Draw the upgrade icon.
-draw_sprite(upgrade_data[? "icon"], 0, x, y - 200);
+draw_sprite(upgrade_data[? "icon"], 0, x, y - 150);
 
 // Set draw alpha.
 draw_set_alpha(roll_alpha);

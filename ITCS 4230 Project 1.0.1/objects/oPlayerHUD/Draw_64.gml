@@ -1,8 +1,8 @@
 if instance_exists(oPlayer){
-	var _xp = oPlayer.current_XP
-	var _level = oPlayer.xpForLevel
-	var _xpPercent = _xp / _level	
-	var _xpNum = 285 * _xpPercent
+	var _xp = oPlayer.current_XP;
+    var _level = max(1, oPlayer.xpForLevel); 
+    var _xpPercent = clamp(_xp / _level, 0, 1);
+    var _xpNum = 285 * _xpPercent;
 	var _max = 400;
 	var _invuln_percent = 1 - (oPlayer.invuln_timer / _max);
 	var _invulnmeter = 60 * _invuln_percent;
@@ -13,6 +13,8 @@ if instance_exists(oPlayer){
 	draw_sprite_stretched_ext(sXPbarfull, 0, 175, 72, _xpNum, 21, c_aqua, 1)
 	draw_set_font(silver)
 	draw_text(185, 122, "Level: " + string(oPlayer.currentLevel))
+	
+	
 	
 	
 	if (variable_instance_exists(oPlayer, "_knockback") && oPlayer._knockback) {

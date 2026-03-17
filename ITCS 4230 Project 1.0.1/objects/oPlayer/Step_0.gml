@@ -6,9 +6,9 @@ if (global.paused)
 	exit;
 }
 
-
-if currentHealth < 0 {
-	room_restart()
+//if health 
+if currentHealth <= 0 {
+	game_restart()
 } 
 
 _speed = ds_map_find_value(global.traits, "speed");

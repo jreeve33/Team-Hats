@@ -1,6 +1,11 @@
 //Rotate and scale the attack to the directional input
-
 size = ds_map_find_value(global.swipe, "range")
+
+if instance_exists(oPlayer){
+	if oPlayer._vision{
+		size += 3
+	}
+
 if oPlayer.attackDirection == 4{
 	image_xscale = 0.25 * size
 	image_yscale = 0.25 * size
@@ -32,6 +37,12 @@ if oPlayer.attackDirection == 2{
 }
 damage = ds_map_find_value(global.swipe, "damage");
 damage *= oPlayer.damageMod
+if oPlayer._rage{
+	damage += 10	
+}
 
+}
 dirx_offset = 0
 diry_offset = 0
+
+has_hit = false;

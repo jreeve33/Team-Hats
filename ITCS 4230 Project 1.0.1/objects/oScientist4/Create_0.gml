@@ -13,3 +13,9 @@ walkLeft = sScientist4WalkLeft
 hitCooldown = 0
 paused_speed = 0
 health_scientist = 1
+
+//knockback
+kb_speed = 0;
+kb_dir = 0;
+kb_friction = 0.5;   // how fast knockback slows down
+

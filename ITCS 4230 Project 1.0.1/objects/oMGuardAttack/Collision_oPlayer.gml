@@ -1,3 +1,4 @@
+
 if other.hitCooldown <= 0{
 	other.currentHealth -= damage
 	other.hitCooldown += 40

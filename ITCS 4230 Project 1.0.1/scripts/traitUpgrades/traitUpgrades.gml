@@ -33,7 +33,7 @@
 			ds_map_replace(_map, "object", global.traits);
 			ds_map_replace(_map, "key", "immunity");
 			ds_map_replace(_map, "amount", true);
-			ds_map_replace(_map, "icon", sSlashAttackDown);
+			ds_map_replace(_map, "icon", sInvuln);
 			ds_map_replace(_map, "weapon_name", "TRAIT");
 	
 			// Add upgrade to the list.
@@ -54,7 +54,7 @@
 			ds_map_replace(_map, "object", global.traits);
 			ds_map_replace(_map, "key", "speed");
 			ds_map_replace(_map, "amount", true);
-			ds_map_replace(_map, "icon", sSlashAttackDown);
+			ds_map_replace(_map, "icon", sSpeed);
 			ds_map_replace(_map, "weapon_name", "TRAIT");
 	
 			// Add upgrade to the list.
@@ -70,12 +70,12 @@
 	
 			// Increase attack speed.
 			// Note that this would actually decreasing a cooldown.
-			ds_map_replace(_map, "description", "See further");
+			ds_map_replace(_map, "description", "Massively increase attack size");
 			ds_map_replace(_map, "title", "VISION");
 			ds_map_replace(_map, "object", global.traits);
 			ds_map_replace(_map, "key", "vision");
 			ds_map_replace(_map, "amount", true);
-			ds_map_replace(_map, "icon", sSlashAttackDown);
+			ds_map_replace(_map, "icon", sVision);
 			ds_map_replace(_map, "weapon_name", "TRAIT");
 	
 			// Add upgrade to the list.
@@ -91,12 +91,12 @@
 	
 			// Increase attack speed.
 			// Note that this would actually decreasing a cooldown.
-			ds_map_replace(_map, "description", "Lunge attack");
-			ds_map_replace(_map, "title", "LUNGE");
+			ds_map_replace(_map, "description", "Your attacks do knockback");
+			ds_map_replace(_map, "title", "BIG PUNCH");
 			ds_map_replace(_map, "object", global.traits);
 			ds_map_replace(_map, "key", "lunge");
 			ds_map_replace(_map, "amount", true);
-			ds_map_replace(_map, "icon", sSlashAttackDown);
+			ds_map_replace(_map, "icon", sKnockback);
 			ds_map_replace(_map, "weapon_name", "TRAIT");
 	
 			// Add upgrade to the list.
@@ -112,12 +112,12 @@
 	
 			// Increase attack speed.
 			// Note that this would actually decreasing a cooldown.
-			ds_map_replace(_map, "description", "Rageful bloodlust");
+			ds_map_replace(_map, "description", "Massively increase damage");
 			ds_map_replace(_map, "title", "RAGE");
 			ds_map_replace(_map, "object", global.traits);
 			ds_map_replace(_map, "key", "rage");
 			ds_map_replace(_map, "amount", true);
-			ds_map_replace(_map, "icon", sSlashAttackDown);
+			ds_map_replace(_map, "icon", sRage);
 			ds_map_replace(_map, "weapon_name", "TRAIT");
 	
 			// Add upgrade to the list.

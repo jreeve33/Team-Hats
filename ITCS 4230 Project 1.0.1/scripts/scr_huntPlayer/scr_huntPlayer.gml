@@ -1,6 +1,6 @@
 function scr_huntPlayer(){
 	alarm[0] = 1
-	if point_distance(x, y, oPlayer.x, oPlayer.y) < 100{ 
+	if point_distance(x, y, oPlayer.x, oPlayer.y) < 200{ 
 		direction = point_direction(x, y, oPlayer.x, oPlayer.y)
 		speed = 1
 		

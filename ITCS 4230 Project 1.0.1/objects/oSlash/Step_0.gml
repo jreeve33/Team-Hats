@@ -1,4 +1,3 @@
-
 if instance_exists(oPlayer){
 	if oPlayer.attackDirection == 2{
 		dirx_offset = -16
@@ -18,4 +17,6 @@ if instance_exists(oPlayer){
 	
 	x = oPlayer.x + dirx_offset
 	y = oPlayer.y + diry_offset
+	
+	
 }
