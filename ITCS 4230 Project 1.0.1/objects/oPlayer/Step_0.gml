@@ -10,11 +10,12 @@ if (global.paused)
 if currentHealth < 0 {
 	room_restart()
 } 
+
 _speed = ds_map_find_value(global.traits, "speed");
 _vision = ds_map_find_value(global.traits, "vision");
 _immunity = ds_map_find_value(global.traits, "immunity");
 _rage = ds_map_find_value(global.traits, "rage");
-_lunge = ds_map_find_value(global.traits, "lunge");
+_knockback = ds_map_find_value(global.traits, "lunge");
 
 scr_playerMovement()
 	
@@ -33,7 +34,7 @@ if hitCooldown >= 0{
 if _immunity{
 	if invuln_timer <= 0{
 		instance_create_layer(x,y,"Instances", oBubble)
-		invuln_timer += 400
+		invuln_timer = 400
 	}
 	else if invuln_timer >= 0{
 		invuln_timer--

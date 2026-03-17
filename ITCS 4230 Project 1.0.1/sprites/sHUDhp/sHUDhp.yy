@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"sHUDhp",
   "bboxMode":0,
-  "bbox_bottom":247,
+  "bbox_bottom":249,
   "bbox_left":4,
   "bbox_right":472,
   "bbox_top":18,

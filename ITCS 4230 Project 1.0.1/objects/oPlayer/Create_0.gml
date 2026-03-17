@@ -11,7 +11,12 @@ sprite_bbox_top = sprite_get_bbox_top(sprite_index) - sprite_get_yoffset(sprite_
 sprite_bbox_bottom = sprite_get_bbox_bottom(sprite_index) - sprite_get_yoffset(sprite_index)
 #endregion
 
-
+//Traits
+_speed = false
+_vision = false
+_immunity = false
+_rage = false
+_knockback = false
 //XP System
 #region
 totalXP = 0

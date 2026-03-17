@@ -43,7 +43,7 @@ if _rage == true{
 draw_self()
 
 //Lunge Trait
-if _lunge == true{
+if _knockback == true{
 	if ((sprite_index == sSaturnLeft) || sprite_index == sSaturnStoppedLeft){
 		lunge_sprite_index = sLungeLeft
 	}

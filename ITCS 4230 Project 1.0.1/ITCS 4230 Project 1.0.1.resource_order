@@ -81,6 +81,7 @@
     {"name":"sHealth","order":1,"path":"sprites/sHealth/sHealth.yy",},
     {"name":"sHUDhp","order":1,"path":"sprites/sHUDhp/sHUDhp.yy",},
     {"name":"sInvulnIcon","order":3,"path":"sprites/sInvulnIcon/sInvulnIcon.yy",},
+    {"name":"sInvulnIcon1","order":5,"path":"sprites/sInvulnIcon1/sInvulnIcon1.yy",},
     {"name":"sLabFloorTileSet","order":1,"path":"sprites/sLabFloorTileSet/sLabFloorTileSet.yy",},
     {"name":"sLungeDown","order":3,"path":"sprites/sLungeDown/sLungeDown.yy",},
     {"name":"sLungeIcon","order":2,"path":"sprites/sLungeIcon/sLungeIcon.yy",},

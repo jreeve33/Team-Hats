@@ -122,6 +122,7 @@
     {"id":{"name":"sHUDTileSheet","path":"sprites/sHUDTileSheet/sHUDTileSheet.yy",},},
     {"id":{"name":"sInvulnBubble","path":"sprites/sInvulnBubble/sInvulnBubble.yy",},},
     {"id":{"name":"sInvulnIcon","path":"sprites/sInvulnIcon/sInvulnIcon.yy",},},
+    {"id":{"name":"sInvulnIcon1","path":"sprites/sInvulnIcon1/sInvulnIcon1.yy",},},
     {"id":{"name":"sLabDecorTileSet","path":"sprites/sLabDecorTileSet/sLabDecorTileSet.yy",},},
     {"id":{"name":"sLabFloorTileSet","path":"sprites/sLabFloorTileSet/sLabFloorTileSet.yy",},},
     {"id":{"name":"sLungeDown","path":"sprites/sLungeDown/sLungeDown.yy",},},
