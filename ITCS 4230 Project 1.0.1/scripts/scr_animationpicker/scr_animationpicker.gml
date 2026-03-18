@@ -8,6 +8,7 @@ function scr_animationpicker(){
 	}
 	
 	if action == 1 {
+		/*
 		direction_go = random(360)
 		if tilemap_get_at_pixel(tilemap, x + 1, y){
 			direction_go = random_range(91, 269)
@@ -32,6 +33,7 @@ function scr_animationpicker(){
 		}
 		
 		motion_add(direction_go, 0.5)	
+		*/
 	}
 
 	if action == 2{

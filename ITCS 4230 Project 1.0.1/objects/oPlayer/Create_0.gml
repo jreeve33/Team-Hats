@@ -45,6 +45,7 @@ clamp(currentHealth, 0, 100)
 #region
 attackDirection = 0
 attackCdr = 0
+rage_damage_mod = 0 
 damageMod = 1
 attackSize = 1
 #endregion

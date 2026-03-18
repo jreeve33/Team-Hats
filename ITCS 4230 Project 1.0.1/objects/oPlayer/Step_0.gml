@@ -32,19 +32,22 @@ if hitCooldown >= 0{
 }
 
 if _immunity{
-	if invuln_timer <= 0{
-		instance_create_layer(x,y,"Instances", oBubble)
-		invuln_timer = 400
-	}
-	else if invuln_timer >= 0{
+	if invuln_timer >= 0{
 		invuln_timer--
 	}
 }
 
 if current_XP >= xpForLevel{
+	if currentHealth < 70{
+		currentHealth += 30
+	}
+	currentHealth = 100
 	scr_levelUp()
 }
 
+if _rage{
+	rage_damage_mod = 10
+}
 
 
 //Collision

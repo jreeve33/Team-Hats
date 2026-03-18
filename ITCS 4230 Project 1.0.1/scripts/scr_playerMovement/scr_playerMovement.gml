@@ -3,7 +3,7 @@ function scr_playerMovement(){
 	speedModBool = ds_map_find_value(global.traits, "speed");
 	
 	if speedModBool == true{
-		speedMod = 2
+		speedMod = 1.5
 	}
 // Set speed to 0.
 	// We increase it again below.

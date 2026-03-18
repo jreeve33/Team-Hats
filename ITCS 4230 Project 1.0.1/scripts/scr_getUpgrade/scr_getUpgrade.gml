@@ -1,4 +1,5 @@
 function scr_getUpgrade(){
+	audio_play_sound(levelUp, 1, false)
 // Destroy any existing upgrade cards.
 	with(obj_upgrade)
 	{

@@ -22,6 +22,7 @@ else{
 }
 if health_scientist <= 0{
 	instance_create_layer(x, y, "Instances", oEnemyExplode)
+	audio_play_sound(enemyDying, 1, false)
 	instance_destroy()
 }
 

@@ -13,4 +13,4 @@ image_yscale = 0.5
 dir = point_direction(x,y, oPlayer.x, oPlayer.y)
 image_angle = dir + 90
 
-audio_play_sound(shooting, false, 1)
+audio_play_sound(shooting, 1, false)

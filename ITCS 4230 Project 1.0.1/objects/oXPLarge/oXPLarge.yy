@@ -5,7 +5,7 @@
   "managed":true,
   "name":"oXPLarge",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oXP","path":"objects/oXP/oXP.yy",},"propertyId":{"name":"xpValue","path":"objects/oXP/oXP.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oXP","path":"objects/oXP/oXP.yy",},"propertyId":{"name":"xpValue","path":"objects/oXP/oXP.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
   ],
   "parent":{
     "name":"Pick Ups",

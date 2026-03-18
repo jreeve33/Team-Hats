@@ -129,6 +129,8 @@ if (mouse_over)
 		if (mouse_check_button_released(mb_left) || gamepad_bypass)
 		{
 			
+			//Destroys controls
+			with(oControlsButton) instance_destroy();
 			// Destroys upgrades.
 			with(oExitButton) instance_destroy();
 	
@@ -140,8 +142,7 @@ if (mouse_over)
 			
 			unpause()
 			draw_set_colour(c_white)
-			// Plays music sound effect.
-			audio_play_sound(backgroundMusic, 0, true);
+			
 		}
 	}
 }

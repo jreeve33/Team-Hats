@@ -129,19 +129,18 @@ if (mouse_over)
 		if (mouse_check_button_released(mb_left) || gamepad_bypass)
 		{
 			
-			// Destroys upgrades.
+			//Destroys controls
+			with(oControlsButton) instance_destroy();
+			// Destroys Exit.
 			with(oExitButton) instance_destroy();
 	
-			// Destroys upgrade screen.
+			// Destroys menu.
 			with(oPauseMenu) instance_destroy();
 	
-			// Destroys reroll button.
+			// Destroys play.
 			with(oPlayButton) instance_destroy();
 			
 			game_end()
-	
-			// Plays music sound effect.
-			audio_play_sound(backgroundMusic, 0, true);
 		}
 	}
 }

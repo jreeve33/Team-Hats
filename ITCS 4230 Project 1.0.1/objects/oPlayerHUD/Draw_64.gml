@@ -26,7 +26,12 @@ if instance_exists(oPlayer){
     }
 	
 	if (variable_instance_exists(oPlayer, "_immunity") && oPlayer._immunity) {
-        draw_sprite_stretched(sInvulnIcon1, 0, 134, 176, _invulnmeter, 58);
+		if oPlayer.invuln_timer == 0{
+			draw_sprite(sInvulnIcon1, 1, 124, 205)
+		}
+		else{
+			draw_sprite_stretched(sInvulnIcon1, 0, 134, 176, _invulnmeter, 58);
+		}
     }
 	
 	if (variable_instance_exists(oPlayer, "_rage") && oPlayer._rage) {

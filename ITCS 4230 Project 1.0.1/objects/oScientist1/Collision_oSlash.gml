@@ -10,6 +10,7 @@ if instance_exists(oPlayer) && oPlayer._knockback{
 */
 if hitCooldown <= 0{
 	show_debug_message("HIT FRAME1");
+	show_debug_message(oPlayer.rage_damage_mod)
 	health_scientist -= other.damage
 	hitCooldown += 10
 	instance_create_layer(x, y - 20, "Instances", oDamageNumber)

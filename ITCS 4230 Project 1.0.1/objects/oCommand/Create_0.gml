@@ -1,4 +1,3 @@
-
 players = 0
 scr_playerSpawn()
 display_reset(0, true)
@@ -24,3 +23,6 @@ clamp(global.guardSpawnChance, 0, 1)
 
 clamp(global.scientistSpawnChance, 0, 1)
 
+global.levelForHealthScaling = 0 
+
+global.enemiesKilled = 0

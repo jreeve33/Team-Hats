@@ -1,3 +1,3 @@
 if instance_exists(oPlayer){
-	oPlayer.hitCooldown = 100000
+	oPlayer.hitCooldown = 500
 }
