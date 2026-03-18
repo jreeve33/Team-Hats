@@ -3,6 +3,9 @@ var lay = layer_get_id("collision_map")
 
 tilemap = layer_tilemap_get_id(lay)
 
+var escape = layer_get_id("escape_pad")
+
+escape_pad_id = layer_tilemap_get_id(escape)
 //Sprite info
 #region
 sprite_bbox_left = sprite_get_bbox_left(sprite_index) - sprite_get_xoffset(sprite_index)
@@ -80,3 +83,6 @@ sh_handle_replace3 = shader_get_uniform(sdr_rageMain, "colorReplace3");
 
 //Invuln
 invuln_timer = 0
+
+//exit pad
+near_exit = false

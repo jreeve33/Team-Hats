@@ -59,6 +59,13 @@ if place_meeting(x, y + vspeed , tilemap){
 	vspeed = 0
 }
 
+if tilemap_get_at_pixel(escape_pad_id,x, y) and near_exit == false{
+	near_exit = true
+}
+else if !tilemap_get_at_pixel(escape_pad_id,x, y){
+	near_exit = false
+}
+
 
 
 

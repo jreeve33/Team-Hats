@@ -7,6 +7,6 @@ function scr_levelUp(){
 		oPlayer.current_XP -= oPlayer.xpForLevel
 		oPlayer.xpForLevel *= 1.15
 	}
-	global.scientistSpawnChance /= 1.15
-	global.guardSpawnChance *= 1.15
+	global.scientistSpawnChance /= 1.2
+	global.guardSpawnChance *= 1.3
 }
