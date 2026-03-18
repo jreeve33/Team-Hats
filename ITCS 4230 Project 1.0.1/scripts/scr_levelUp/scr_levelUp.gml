@@ -1,10 +1,11 @@
 function scr_levelUp(){
 	if instance_exists(oPlayer){
+		audio_play_sound(levelUp, false, 1)
 		oPlayer.currentLevel++
 		pause()
 		instance_create_depth(oPlayer.x, oPlayer.y, -2, obj_upgrade_screen)
 		oPlayer.current_XP -= oPlayer.xpForLevel
-		oPlayer.xpForLevel *= 1.3
+		oPlayer.xpForLevel *= 1.15
 	}
 	global.scientistSpawnChance /= 1.15
 	global.guardSpawnChance *= 1.15

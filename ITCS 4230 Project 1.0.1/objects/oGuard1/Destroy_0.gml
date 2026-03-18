@@ -1,3 +1,4 @@
+audio_play_sound(enemyDying, false, 1)
 randomise()
 chance = irandom_range(0,3)
 instance_create_layer(x, y, "Instances", oXPLarge)
