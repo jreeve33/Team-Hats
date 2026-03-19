@@ -1,4 +1,8 @@
 if (global.paused) exit;
+
+if !global.paused{
+	speed = 1
+}
 var cx = camera_get_view_x(view_camera[0]);
 var cy = camera_get_view_y(view_camera[0]);
 

@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"shooting.wav",
-  "volume":0.68,
+  "volume":0.26,
 }

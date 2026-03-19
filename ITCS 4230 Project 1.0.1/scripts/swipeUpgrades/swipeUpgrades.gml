@@ -34,7 +34,7 @@
 			ds_map_replace(_map, "title", "Speed");
 			ds_map_replace(_map, "object", global.swipe);
 			ds_map_replace(_map, "key", "attack_speed");
-			ds_map_replace(_map, "amount", -.05);
+			ds_map_replace(_map, "amount", -.07);
 			ds_map_replace(_map, "icon", sSlashAttackDown);
 			ds_map_replace(_map, "weapon_name", "SWIPE");
 	
@@ -74,7 +74,7 @@
 			ds_map_replace(_map, "title", "Range");
 			ds_map_replace(_map, "object", global.swipe);
 			ds_map_replace(_map, "key", "range");
-			ds_map_replace(_map, "amount", .1);
+			ds_map_replace(_map, "amount", .15);
 			ds_map_replace(_map, "icon", sSlashAttackDown);
 			ds_map_replace(_map, "weapon_name", "SWIPE");
 			

@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"enemyDying.wav",
-  "volume":0.66,
+  "volume":0.13,
 }

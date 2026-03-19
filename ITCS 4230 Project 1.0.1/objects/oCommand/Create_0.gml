@@ -3,6 +3,7 @@ scr_playerSpawn()
 display_reset(0, true)
 window_set_fullscreen(true)
 
+traits_reset()
 global.paused = false
 
 global.guardSpawnChance = 0.25

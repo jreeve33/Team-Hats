@@ -1,1 +1,0 @@
-draw_sprite(sDeathCard, 0, x, y)

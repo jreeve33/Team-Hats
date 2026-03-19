@@ -2,6 +2,8 @@
 
 if (global.paused)
 {
+	hspeed = 0
+	vspeed = 0
 	// Exit this event while paused.
 	exit;
 }
@@ -9,10 +11,25 @@ if (global.paused)
 //if health 
 if currentHealth <= 0 {
 	global.paused = true
+	
+	if (ds_exists(global.swipe, ds_type_map)) {
+		ds_map_destroy(global.swipe);
+	}
+	if (ds_exists(global.traits, ds_type_map)) {
+		ds_map_destroy(global.traits);
+	}
+	// Immediately recreate it
+	global.traits = ds_map_create();
+	global.swipe = ds_map_create()
+	// Reinitialize values
+	traits_reset(); 
+	weapon_swipe_reset()
+	
 	if !instance_exists(oYouDied){
 		instance_create_layer(x, y, "pause_menu_buttons", oYouDied)
 	}
 } 
+
 
 _speed = ds_map_find_value(global.traits, "speed");
 _vision = ds_map_find_value(global.traits, "vision");
@@ -41,10 +58,12 @@ if _immunity{
 }
 
 if current_XP >= xpForLevel{
-	if currentHealth < 70{
+	if currentHealth <= 70{
 		currentHealth += 30
 	}
-	currentHealth = 100
+	else{
+		currentHealth = 100
+	}
 	scr_levelUp()
 }
 

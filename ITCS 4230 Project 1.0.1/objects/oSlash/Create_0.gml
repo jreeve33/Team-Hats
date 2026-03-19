@@ -14,8 +14,9 @@ if instance_exists(oPlayer){
 	}
 
 	if oPlayer.attackDirection == 1{
+		image_angle = 180
 		image_xscale = 0.25 * size
-		image_yscale = -0.25 * size
+		image_yscale = 0.25 * size
 		diry_offset = -16
 	
 	}

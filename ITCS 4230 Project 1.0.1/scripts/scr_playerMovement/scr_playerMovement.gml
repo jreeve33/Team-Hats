@@ -44,7 +44,7 @@ function scr_playerMovement(){
 	var _speed = sqrt(sqr(hspeed) + sqr(vspeed));
 	if(_speed > 10)
 	{
-		hspeed *= 3 / _speed;
-		vspeed *= 3 / _speed;
+		hspeed *= 2 / _speed;
+		vspeed *= 2 / _speed;
 	}
 }
