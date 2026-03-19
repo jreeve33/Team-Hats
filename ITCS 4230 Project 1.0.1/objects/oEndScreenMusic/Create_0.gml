@@ -1,0 +1,1 @@
+audio_play_sound(endScreen, 1, true)

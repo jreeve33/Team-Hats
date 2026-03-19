@@ -1,0 +1,1 @@
+audio_play_sound(titleMusic, 1, true)
