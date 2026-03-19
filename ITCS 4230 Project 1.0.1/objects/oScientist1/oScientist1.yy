@@ -15,7 +15,10 @@
     "name":"Scientists",
     "path":"folders/Objects/Enemies/Scientists.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oEnemy",
+    "path":"objects/oEnemy/oEnemy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
