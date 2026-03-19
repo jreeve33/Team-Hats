@@ -9,8 +9,8 @@
   "name":"oGuardSpawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game Objects",
-    "path":"folders/Objects/Game Objects.yy",
+    "name":"Labs",
+    "path":"folders/Objects/Game Objects/Labs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

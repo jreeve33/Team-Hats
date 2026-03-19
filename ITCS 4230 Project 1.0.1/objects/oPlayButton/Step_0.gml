@@ -128,7 +128,7 @@ if (mouse_over)
 		// Checks for mouse release or gamepad bypass.
 		if (mouse_check_button_released(mb_left) || gamepad_bypass)
 		{
-			
+			audio_play_sound(buttonPress, 1, false)
 			//Destroys controls
 			with(oControlsButton) instance_destroy();
 			// Destroys upgrades.

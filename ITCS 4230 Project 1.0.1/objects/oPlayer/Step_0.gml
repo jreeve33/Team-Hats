@@ -8,7 +8,10 @@ if (global.paused)
 
 //if health 
 if currentHealth <= 0 {
-	game_restart()
+	global.paused = true
+	if !instance_exists(oYouDied){
+		instance_create_layer(x, y, "pause_menu_buttons", oYouDied)
+	}
 } 
 
 _speed = ds_map_find_value(global.traits, "speed");

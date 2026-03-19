@@ -38,8 +38,14 @@ if (hspeed != 0) {
     var remaining = abs(hspeed);
 
     while (remaining > 0) {
-        // Check buffer distance ahead
-        if (tilemap_get_at_pixel(tilemap, x + dir * (1 + buffer), y)) break;
+        // Check top and bottom of sprite
+        if (
+            tilemap_get_at_pixel(tilemap, x + dir * (1 + buffer), bbox_top) ||
+            tilemap_get_at_pixel(tilemap, x + dir * (1 + buffer), bbox_bottom)
+        ) {
+            break;
+        }
+
         x += dir;
         remaining -= 1;
     }
@@ -53,7 +59,13 @@ if (vspeed != 0) {
     var remaining = abs(vspeed);
 
     while (remaining > 0) {
-        if (tilemap_get_at_pixel(tilemap, x, y + dir * (1 + buffer))) break;
+        if (
+            tilemap_get_at_pixel(tilemap, bbox_left, y + dir * (1 + buffer)) ||
+            tilemap_get_at_pixel(tilemap, bbox_right, y + dir * (1 + buffer))
+        ) {
+            break;
+        }
+
         y += dir;
         remaining -= 1;
     }
