@@ -18,7 +18,7 @@ swing = sGunGuardShoot
 attackCooldown = 0
 hitCooldown = 0
 paused_speed = 0
-health_guard = 10 + global.levelForHealthScaling * 1.1
+health_guard = 10 + global.levelForHealthScaling * 1.15
 
 //knockback
 kb_speed = 0;

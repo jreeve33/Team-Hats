@@ -18,12 +18,12 @@ swing = sMGuardSwing
 attackCooldown = 0
 hitCooldown = 0
 paused_speed = 0
-health_guard = 10 + global.levelForHealthScaling * 1.15
+health_guard = 10 + global.levelForHealthScaling * 1.2
 
 //knockback
-kb_speed = 0;
-kb_dir = 0;
-kb_friction = 0.5;   // how fast knockback slows down
+kb_speed = 0
+kb_dir = 0
+kb_friction = 0.5  // how fast knockback slows down
 
 var _dir = point_direction(other.x, other.y, x, y); // away from enemy
 kb_dir = _dir;

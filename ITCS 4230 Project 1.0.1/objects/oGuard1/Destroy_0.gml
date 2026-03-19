@@ -1,6 +1,6 @@
 audio_play_sound(enemyDying, 1, false)
 randomise()
-chance = irandom_range(0,15)
+chance = irandom_range(0,25)
 instance_create_layer(x, y, "Instances", oXPLarge)
 if chance == 1{
 	instance_create_layer(x, y, "Instances", oHealthPack)
