@@ -91,7 +91,7 @@
 	
 			// Increase attack speed.
 			// Note that this would actually decreasing a cooldown.
-			ds_map_replace(_map, "description", "Your attacks do knockback");
+			ds_map_replace(_map, "description", "Your attacks stun enemies");
 			ds_map_replace(_map, "title", "BIG PUNCH");
 			ds_map_replace(_map, "object", global.traits);
 			ds_map_replace(_map, "key", "lunge");

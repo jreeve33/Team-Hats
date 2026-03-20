@@ -35,7 +35,7 @@
 			ds_map_replace(_map, "object", global.swipe);
 			ds_map_replace(_map, "key", "attack_speed");
 			ds_map_replace(_map, "amount", -.04);
-			ds_map_replace(_map, "icon", sSlashAttackDown);
+			ds_map_replace(_map, "icon", sAttackSpeedUp);
 			ds_map_replace(_map, "weapon_name", "SWIPE");
 	
 			// Add upgrade to the list.
@@ -57,7 +57,7 @@
 			ds_map_replace(_map, "object", global.swipe);
 			ds_map_replace(_map, "key", "damage");
 			ds_map_replace(_map, "amount", 1);
-			ds_map_replace(_map, "icon", sSlashAttackDown);
+			ds_map_replace(_map, "icon", sDamageUp);
 			ds_map_replace(_map, "weapon_name", "SWIPE");
 	
 			// Add upgrade to the list.
@@ -75,7 +75,7 @@
 			ds_map_replace(_map, "object", global.swipe);
 			ds_map_replace(_map, "key", "range");
 			ds_map_replace(_map, "amount", .15);
-			ds_map_replace(_map, "icon", sSlashAttackDown);
+			ds_map_replace(_map, "icon", sRangeUp);
 			ds_map_replace(_map, "weapon_name", "SWIPE");
 			
 			// Add upgrade to the list.

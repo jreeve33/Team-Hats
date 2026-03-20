@@ -13,6 +13,8 @@ if instance_exists(oPlayer){
 	draw_sprite_stretched_ext(sXPbarfull, 0, 175, 72, _xpNum, 21, c_aqua, 1)
 	draw_set_font(silver)
 	draw_text(185, 122, "Level: " + string(oPlayer.currentLevel))
+	draw_text(185, 35, "Health")
+	draw_text(185, 72, "XP")
 	
 	
 	

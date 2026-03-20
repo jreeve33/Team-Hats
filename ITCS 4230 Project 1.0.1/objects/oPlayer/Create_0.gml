@@ -26,7 +26,7 @@ totalXP = 0
 
 current_XP = 0
 xpForLevel = 100
-currentLevel = 0
+currentLevel = 20
 
 xpPercentage = current_XP / xpForLevel
 
