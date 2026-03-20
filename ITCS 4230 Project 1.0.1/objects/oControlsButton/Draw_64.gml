@@ -25,6 +25,6 @@ if show_controls{
 	draw_text_transformed(x+370, y -240, "M - Enable cheats", 2.5, 2.5, 0)
 	draw_text_transformed(x+370, y -140, "P - Hit Level 20", 2.5, 2.5, 0)
 	draw_text_transformed(x+370, y -40, "L - Level up once", 2.5, 2.5, 0)
-	draw_text_transformed(x+370, y +60, "O - Escapefacility", 2.5, 2.5, 0)
+	draw_text_transformed(x+370, y +60, "O - Escape facility", 2.5, 2.5, 0)
 	draw_text_transformed(x+370, y +160, "K - Kill thineself", 2.5, 2.5, 0)
 }
