@@ -3,7 +3,7 @@ size = ds_map_find_value(global.swipe, "range")
 if instance_exists(oPlayer){
 	if instance_exists(oPlayer){
 		if oPlayer._vision{
-			size += 3
+			size += 2
 		}
 
 	if oPlayer.attackDirection == 4{

@@ -12,4 +12,7 @@ if show_controls{
 	draw_sprite(sD, 0, x- 480, y + 37)
 	draw_text_transformed(x-820, y +80, "Use WASD to move.", 2.5, 2.5, 0)
 	
+	draw_text_transformed(x - 820, y + 180, "Press X to turn", 2.5, 2.5, 0)
+	draw_text_transformed(x - 820, y + 280, "on Auto Attack", 2.5, 2.5, 0)
+	
 }

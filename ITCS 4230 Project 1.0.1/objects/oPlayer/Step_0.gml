@@ -41,7 +41,12 @@ scr_playerMovement()
 	
 scr_playerSpriteHandler()
 
-scr_playerAttacks()
+if global.accessibleMode{
+    scr_autoAttack()
+}
+else {
+    scr_playerAttacks()
+}
 
 if attackCdr >= 0{
 	attackCdr--

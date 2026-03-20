@@ -27,3 +27,5 @@ clamp(global.scientistSpawnChance, 0, 1)
 global.levelForHealthScaling = 0 
 
 global.enemiesKilled = 0
+
+global.accessibleMode = false

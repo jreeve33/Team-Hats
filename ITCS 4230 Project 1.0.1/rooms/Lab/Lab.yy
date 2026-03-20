@@ -15,6 +15,7 @@
     {"name":"inst_6A321076","path":"rooms/Lab/Lab.yy",},
     {"name":"inst_75E816D4","path":"rooms/Lab/Lab.yy",},
     {"name":"inst_71B324C3","path":"rooms/Lab/Lab.yy",},
+    {"name":"inst_30C4CED5","path":"rooms/Lab/Lab.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -46,6 +47,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oGuardSpawner","path":"objects/oGuardSpawner/oGuardSpawner.yy",},"propertyId":{"name":"obj_type","path":"objects/oGuardSpawner/oGuardSpawner.yy",},"resource":{"name":"oGuard2","path":"objects/oGuard2/oGuard2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"oGuard2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2571.0,"y":1390.0,},
         {"$GMRInstance":"v4","%Name":"inst_71B324C3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_71B324C3","objectId":{"name":"backgroundMusicPlayer","path":"objects/backgroundMusicPlayer/backgroundMusicPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2308.0,"y":1378.0,},
+        {"$GMRInstance":"v4","%Name":"inst_30C4CED5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30C4CED5","objectId":{"name":"oExitNode","path":"objects/oExitNode/oExitNode.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1425.0,"y":225.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"player_spawn","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"player_spawn","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":60,"SerialiseWidth":105,"TileCompressedData":[
           -4286,-2147483648,-3,1,-102,-2147483648,-3,1,-102,-2147483648,-3,1,-102,-2147483648,-3,1,-55,-2147483648,

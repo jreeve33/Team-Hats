@@ -43,6 +43,13 @@ if instance_exists(oPlayer){
 	if (variable_instance_exists(oPlayer, "_vision") && oPlayer._vision) {
         draw_sprite(sVisionIcon, 1, 324, 205);
     }
+	
+	var _str = "Off"
+	if global.accessibleMode{
+		_str = "On"
+	}
+	
+	draw_text(20,250, "Auto Attack: " + _str)
 	//draw_text(900, 8, string(global.timer))
 	
 }
